@@ -28,7 +28,8 @@ RUN apt update -y && apt upgrade -y && \
 
 # establish structure
 RUN mkdir /home/ryebot/runner && \
-	mkdir /home/ryebot/server
+	mkdir /home/ryebot/server && \
+	mkdir /home/ryebot/bin
 
 # get runner
 RUN cd /home/ryebot/runner && \

@@ -103,10 +103,9 @@ init_global_settings
 
 announce_build CI
 init_ci_settings
-
 docker build -t "$IMGNAME"-ci docker/ci --build-arg RUNNERVER="$RUNNERVER" --build-arg OWNER="$OWNER" --build-arg REPO="$REPO" --build-arg REGTOKEN="$REGTOKEN" --build-arg NICKNAME="$NICKNAME" 
 
-# announce_build CD
-# TO-DO
+announce_build CD
+docker build -t "$IMGNAME"-cd docker/cd
 
 echo "OK"
