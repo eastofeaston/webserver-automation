@@ -1,0 +1,12 @@
+{
+    "nickname": "malus",
+    "image-name": "ryeeastoncom",
+    "ci-settings": {
+        "github-token": "ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "runner-version": "2.322.0",
+        "target": {
+            "owner": "eastofeaston",
+            "repo": "webserver-automation"
+        }
+    }
+}
